@@ -4325,13 +4325,18 @@ input[type="button"].btn-block {
 }
 
 .nav-pills .nav-link {
-  border-radius: 0.25rem;
+  border-radius: 2rem;
+  color: black;
+  font-weight:500;
+  border-bottom: 2px hsla(82,32%,87%,1.00);
+  margin: 2px 10px;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
+  font-weight: 600;
+  background-color:hsla(92,30%,52%,1.00);
 }
 
 .nav-fill .nav-item {
