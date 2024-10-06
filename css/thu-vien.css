@@ -1,0 +1,38 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.bg-tsuot{
+	background-color: rgba(253,253,253,0.5)
+}
+
+
+   @font-face {
+  font-family: 'Sornette';
+	   src: url("../fonts/Sornette.woff2") format('woff2'),
+	  url("../fonts/Sornette.woff") format('woff'),
+       url("../fonts/Sornette.ttf"("../fonts/hurray.woff")) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+	 
+	   }
+
+.custom-font {
+  font-family: 'Sornette', sans-serif;
+  font-weight: bold;
+  color:rgba(27,67,23,1.00);
+  font-size: 26px
+		
+ 
+}
+
+nav ul li a:hover {  text-decoration: underline;
+  background-color: #D0F0C0;
+   font-weight: bold;
+}
+nav ul li a:active {
+  border: 2px solid #D3EE98; /* Thay đổi màu viền tùy ý */
+}
+
+.mau { 
+color:antiquewhite}
+
